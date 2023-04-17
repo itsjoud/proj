@@ -1,0 +1,50 @@
+{% extends 'home/main.html' %}
+{% load static %}
+        
+      
+{% block content%}
+<div id="carouselExampleControls" class="carousel slide" data-ride="carousel" style="width: 95rem; height: 20rem">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-block w-100" src="{%static 'images/slide4.png' %}" alt="First slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="{%static 'images/slide5.png' %}"alt="Second slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="{%static 'images/slide3.png' %}" alt="Third slide">
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+<br>
+<div class="card" style="width: 95rem;">
+    <div class="card-body">
+      <h5 class="card-title">About Us<strong></h5>
+      <h6 class="card-subtitle mb-2 text-muted">National Library</h6>
+      <p class="card-text">The National Library is one of the most prestigious and extensive libraries in the country, providing access to a vast collection of books, journals, and electronic resources to a wide range of visitors, including researchers, students, and the general public. Established many years ago, the library has become a central hub for academic and intellectual pursuits, serving as a catalyst for the growth of knowledge and innovation.</p>
+      <p class="card-text">With its state-of-the-art facilities and cutting-edge technology, the National Library has become a beacon of excellence in the field of library services, offering visitors access to a wealth of resources and expertise. Its extensive collection of books, journals, and electronic resources spans across various disciplines, including science, history, arts, and literature, among others.</p>
+      <p class="card-text">The National Library is committed to promoting lifelong learning and the pursuit of knowledge, enabling visitors to develop their skills, knowledge, and creativity. Through its innovative programs and services, the library strives to support the academic and research needs of its diverse community of users, including students, scholars, and educators.</p>
+      <p class="card-text">In line with the nation's vision for the future, the National Library is constantly evolving, seeking new and innovative ways to enhance its services and resources. As it continues to strive towards excellence, the library remains dedicated to promoting the growth of knowledge and intellectual pursuits in the country, and to contributing to the advancement of the nation as a whole.</p>
+      <a href="https://hct.ac.ae/library/en/about/" class="card-link">learn more</a>
+    </div>
+  </div>
+<br>
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title">Collaboration with Khalifa Universty</h5>
+      <p class="card-text">The National Library has recently collaborated with Khalifa University to enhance the research and educational opportunities available to their respective communities. Through this collaboration, the library and the university will work together to promote access to resources, technology, and expertise that will enable students and researchers to pursue their academic and intellectual goals.</p>
+      <a href="https://www.ku.ac.ae/" class="btn btn-primary">Check out here</a>
+    </div>
+  </div>
+  
+{% endblock %}
+   
+    
